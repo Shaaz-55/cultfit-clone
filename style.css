@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #15171C;
+}
+.navbar{
+    display: flex;
+    background-color: #15171C;
+    height: 60px;
+    font-size: 14px;
+    color: #fefefe;
+    width:100%;
+    flex-direction: row;
+    position: relative;
+    margin-inline: auto;
+}
+.cultfit_link{
+    position: relative;
+    /* top:7px;
+    left: 10px; */
+    height: 40px;
+    width: 100px;
+    color: white;
+    list-style: none;
+    font-size: 30px;
+    text-decoration: none;
+}
+.cult_logo{
+    height:30px;
+    width: 30px;
+    position: relative;
+    top:10px;
+}
+.part1{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:20px;
+}
+.part2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+    position: relative;
+    left:500px;
+}
+.fitness,.store{
+    color:white;
+    list-style: none;
+    font-size: 30px;
+    text-decoration: none;
+}
+.part3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    position: relative;
+    left:700px;
+}
+
+.location_logo{
+    width:120px;
+    height:40px;
+
+}
+.getapp_button{
+    width:120px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: #15171C;
+    font-size: 17px;
+    text-align: center;
+    align-content: center;
+    padding:10px 10px;
+}
+.user_logo{
+    width:40px;
+    height:40px;
+}
+.cart_logo{
+    width:40px;
+    height:40px;
+}
+.poster{
+    width: 100%;
+    height: 450px;
+}
+.poster1{
+    width: 700px;
+    height: 200px;
+    position:relative;
+    left: 420px;
+    top: 150px;
+}
+.whole{
+    width:100%;
+    height: 500px;
+    position: relative;
+    top: 160px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 1200px;
+    height: 450px;
+    position: absolute;
+    top: 0px;
+    left:10%;
+
+}
+.box1{
+    width: 380px;
+    height: 400px;
+
+    position:absolute;
+    left:0px;
+    border-radius: 10px;
+}
+.box2{
+    width: 380px;
+    height: 400px;
+
+    position:absolute;
+    left:400px;
+    border-radius: 10px;
+}
+.box3{
+    width: 380px;
+    height: 400px;
+
+    position:absolute;
+    left:800px;
+    border-radius: 10px;
+}
+.button_1{
+    width:110px;
+    height: 38px;
+    position: relative;
+    top: 162px;
+    left: 110px;
+    z-index: 1000;
+    border-radius: 5px;
+    color: red;
+}
+.button_2{
+    width:100px;
+    height: 35px;
+}
+.button_3{
+    width:100px;
+    height: 35px;
+}
+.poster2{
+   width: 100%;
+    height: 450px;
+    position: relative;
+    top: 150px;
+}
+.poster4{
+    width: 700px;
+    height: 200px;
+    position:relative;
+    left: 420px;
+    top: 150px;
+}
