@@ -151,18 +151,31 @@ body{
     height: 38px;
     position: relative;
     top: 162px;
-    left: 110px;
+    left: 120px;
+    z-index: 1000;
+    border-radius: 5px;
+    color: red;
+
+}
+.button_2{
+    width:110px;
+    height: 38px;
+    position: relative;
+    top: 162px;
+    right: 410px;
     z-index: 1000;
     border-radius: 5px;
     color: red;
 }
-.button_2{
-    width:100px;
-    height: 35px;
-}
 .button_3{
-    width:100px;
-    height: 35px;
+    width:110px;
+    height: 38px;
+    position: relative;
+    top: 162px;
+    left: 260px;
+    z-index: 1000;
+    border-radius: 5px;
+    color: red;
 }
 .poster2{
    width: 100%;
@@ -176,4 +189,29 @@ body{
     position:relative;
     left: 420px;
     top: 150px;
+}
+.text{
+    color:gray;
+    position: relative;
+    top: 425px;
+    left:580px;
+    font-size: 15px;
+}
+.footer_container{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    top:400px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.para{
+    color: white;;
+}
+.logo_footer{
+    width: 150px;
+    height: 50px;
+    position: relative;
+
 }
